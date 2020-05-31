@@ -7,7 +7,7 @@ module.exports = {
 	themeConfig: {
 		nav: [
 			{ text: 'Home', link: '/' },
-			{ text: 'Shop', link: 'https://shop.4proj.samalev.be' }
+			{ text: 'Shop', link: 'https://shop.4proj.tools' }
 		],
 		lastUpdated: 'Last Updated',
 		sidebar: [
