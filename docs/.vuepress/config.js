@@ -30,7 +30,7 @@ module.exports = {
 				collapsable: false,
 				children: [
 					'recommandation/',
-					'recommandation/api',
+					'recommandation/recommander',
 				]
 			},
 			{
