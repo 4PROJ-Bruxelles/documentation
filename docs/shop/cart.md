@@ -1,1 +1,1 @@
-# Shop - Cart
+# Cart

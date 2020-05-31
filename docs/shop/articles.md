@@ -1,1 +1,1 @@
-# Shop - Articles
+# Articles

@@ -1,1 +1,1 @@
-# Shop - Transactions
+# Transactions

@@ -1,1 +1,1 @@
-# Shop - Authentification
+# Authentification
