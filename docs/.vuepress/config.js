@@ -39,7 +39,7 @@ module.exports = {
 				children: [
 					'trilateration/',
 					'trilateration/map',
-					'trilateration/beacon',
+					'trilateration/beacons',
 				]
 			},
 			{
