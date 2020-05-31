@@ -1,6 +1,7 @@
 module.exports = {
 	title: 'Docs',
 	description: 'Documentation for 4PROJ',
+	base: "/docs",
 	markdown: {
 		lineNumbers: true
 	},
