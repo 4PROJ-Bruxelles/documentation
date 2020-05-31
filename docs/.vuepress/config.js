@@ -48,6 +48,13 @@ module.exports = {
 				children: [
 					'app/',
 				]
+			},
+			{
+				title: 'Backups',
+				collapsable: false,
+				children: [
+					'backups/',
+				]
 			}
 		],
 		sidebarDepth: 2,
