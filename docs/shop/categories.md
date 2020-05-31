@@ -1,1 +1,1 @@
-# Shop - Categories
+# Categories
