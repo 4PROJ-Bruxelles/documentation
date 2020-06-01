@@ -33,6 +33,11 @@ Response `200`
   }
 ]
 ```
+Possible errors
+```json
+# Code 401
+{ "message": "Unauthenticated." }
+```
 
 ## Get an article
 
@@ -68,6 +73,14 @@ Response `200`
     }
   ]
 }
+```
+Possible errors
+```json
+# Code 401
+{ "message": "Unauthenticated." }
+
+# Code 404
+{ "message": "No article found." }
 ```
 
 ## Add an article
@@ -166,6 +179,9 @@ Possible errors
 ```json
 # Code 401
 { "message": "Unauthenticated." }
+
+# Code 404
+{ "message": "No article found." }
 
 # Code 422
 {

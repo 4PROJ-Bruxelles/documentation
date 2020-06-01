@@ -37,6 +37,11 @@ Response `200`
   },
 ]
 ```
+Possible errors
+```json
+# Code 401
+{ "message": "Unauthenticated." }
+```
 
 ## Get an user
 
@@ -60,6 +65,14 @@ Response `200`
   "country": "Belgium",
   "status": false
 }
+```
+Possible errors
+```json
+# Code 401
+{ "message": "Unauthenticated." }
+
+# Code 404
+{ "message": "No user found." }
 ```
 
 ## Add an user
@@ -152,6 +165,9 @@ Possible errors
 ```json
 # Code 401
 { "message": "Unauthenticated." }
+
+# Code 404
+{ "message": "No user found." }
 
 # Code 422
 {

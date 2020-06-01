@@ -37,6 +37,11 @@ Response `200`
   }
 ]
 ```
+Possible errors
+```json
+# Code 401
+{ "message": "Unauthenticated." }
+```
 
 ## Get a category
 
@@ -56,6 +61,14 @@ Response `200`
   "created_at": "2020-05-30T19:05:34.000000Z",
   "updated_at": "2020-05-30T19:05:34.000000Z"
 }
+```
+Possible errors
+```json
+# Code 401
+{ "message": "Unauthenticated." }
+
+# Code 404
+{ "message": "No category found." }
 ```
 
 ## Add a category
@@ -141,6 +154,9 @@ Possible errors
 ```json
 # Code 401
 { "message": "Unauthenticated." }
+
+# Code 404
+{ "message": "No category found." }
 
 # Code 422
 {
