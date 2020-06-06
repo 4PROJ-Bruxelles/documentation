@@ -1,10 +1,10 @@
 # Cart
 
-## Get all carts
+## Get all cart items
 
 ```
 Type: GET
-Route: /carts
+Route: /shopping-cart-items
 ```
 
 Response `200`
@@ -37,11 +37,11 @@ Possible errors
 { "message": "Unauthenticated." }
 ```
 
-## Get a cart
+## Get a cart item
 
 ```
 Type: GET
-Route: /carts/{id}
+Route: /shopping-cart-items/{id}
 ```
 
 Response `200`
@@ -68,11 +68,11 @@ Possible errors
 { "message": "No cart found." }
 ```
 
-## Add a cart
+## Add a cart item
 
 ```
 Type: POST
-Route: /carts
+Route: /shopping-cart-items
 ```
 
 Body
@@ -115,11 +115,11 @@ Possible errors
 }
 ```
 
-## Update a cart
+## Update a cart item
 
 ```
 Type: PUT
-Route: /carts/{id}
+Route: /shopping-cart-items/{id}
 ```
 
 Body
@@ -162,11 +162,11 @@ Possible errors
 }
 ```
 
-## Delete a cart
+## Delete a cart item
 
 ```
 Type: DELETE
-Route: /carts/{id}
+Route: /shopping-cart-items/{id}
 ```
 
 Response `204`
@@ -180,5 +180,23 @@ Possible errors
 { "message": "Unauthenticated." }
 
 # Code 404
-{ "message": "No cart found." }
+{ "message": "No cart item found." }
+```
+
+## Clear a cart
+
+```
+Type: DELETE
+Route: /shopping-cart-items/clear
+```
+
+Response `204`
+
+```json
+No body returned response
+```
+Possible errors
+```json
+# Code 401
+{ "message": "Unauthenticated." }
 ```
