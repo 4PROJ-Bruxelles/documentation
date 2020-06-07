@@ -29,8 +29,8 @@ module.exports = {
 				title: 'Recommandation',
 				collapsable: false,
 				children: [
-					'recommandation/',
-					'recommandation/recommander',
+					'recommendation/',
+					'recommendation/recommender',
 				]
 			},
 			{
