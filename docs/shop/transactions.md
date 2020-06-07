@@ -1,4 +1,4 @@
-# Transaction
+# Transactions
 
 ## Get all transactions
 
