@@ -2,7 +2,7 @@
 
 ## Recommend articles to user
 ```json
-Type: GET
+Type: POST
 Route: /recommend
 ```
 
