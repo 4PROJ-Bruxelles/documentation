@@ -7,14 +7,13 @@ Route: /update/dataset
 ```
 
 Response `200`
-
 ```json
 {
   "status": "Updated"
 }
 ```
 
-### Recommend Items to user
+### Recommend articles to user
 ```json
 Type: GET
 Route: /recommend
