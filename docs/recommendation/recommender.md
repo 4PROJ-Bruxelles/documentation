@@ -1,6 +1,6 @@
 # Recommander
 
-### Update dataset
+## Update dataset
 ```json
 Type: GET
 Route: /update/dataset
@@ -13,7 +13,7 @@ Response `200`
 }
 ```
 
-### Recommend articles to user
+## Recommend articles to user
 ```json
 Type: GET
 Route: /recommend
