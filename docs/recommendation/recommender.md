@@ -1,18 +1,5 @@
 # Recommander
 
-## Update dataset
-```json
-Type: GET
-Route: /update/dataset
-```
-
-Response `200`
-```json
-{
-  "status": "Updated"
-}
-```
-
 ## Recommend articles to user
 ```json
 Type: GET
@@ -37,4 +24,17 @@ Body
   "item d",
   "item e"
 ]
+```
+
+## Update dataset
+```json
+Type: GET
+Route: /update/dataset
+```
+
+Response `200`
+```json
+{
+  "status": "Updated"
+}
 ```
