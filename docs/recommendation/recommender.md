@@ -12,7 +12,9 @@ Body
   "item 1",
   "item 2",
   "item 3"
-]
+],
+"n": 5,     // Number of items (defaults to 5)
+"k": .0     // Similarity rate (defaults to 0.0)
 ```
 
  Response `200`
