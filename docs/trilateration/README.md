@@ -1,3 +1,5 @@
+# Introduction 
+
 The Beacon Trilateration is a project of localization via Bluetooth of a phone thanks to a triangulation of it.
 
 This project contains two distinct parts:
