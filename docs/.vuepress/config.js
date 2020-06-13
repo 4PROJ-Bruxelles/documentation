@@ -17,6 +17,9 @@ module.exports = {
 				collapsable: false,
 				children: [
 					'shop/',
+					'shop/authentication',
+					'shop/admin',
+					'shop/customer',
 				]
 			},
 			{
