@@ -17,12 +17,19 @@ module.exports = {
 				collapsable: false,
 				children: [
 					'shop/',
-					'shop/account',
-					'shop/users',
-					'shop/articles',
-					'shop/categories',
-					'shop/transactions',
-					'shop/cart',
+				]
+			},
+			{
+				title: 'Shop API',
+				collapsable: false,
+				children: [
+					'shop-api/',
+					'shop-api/account',
+					'shop-api/users',
+					'shop-api/articles',
+					'shop-api/categories',
+					'shop-api/transactions',
+					'shop-api/cart',
 				]
 			},
 			{
