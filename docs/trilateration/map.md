@@ -33,7 +33,7 @@ By right-clicking on the web page, an options tab can be opened to change some d
 
 * B1 to B2 is the number of meters separating terminal 1 to terminal 2, this metric is necessary to calculate the number of pixels per meter for the display to be as realistic as possible.
 * txPower is the signal power at one meter from a terminal, it is important in the trilateration calculation.
-* The Environmental Factor is a variable depending on the environment in which the bollFards are placed. This value can vary between 2 and 5.
+* The Environmental Factor is a variable depending on the environment in which the beacons are placed. This value can vary between 2 and 5.
 
 # SocketIO
 
