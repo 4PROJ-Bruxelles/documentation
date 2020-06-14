@@ -41,7 +41,8 @@ Possible errors
       "The name field is required."
     ],
     "email": [
-      "The email field is required."
+      "The email field is required.",
+      "The email is laready taken"
     ],
     "password": [
       "The password field is required."
@@ -100,6 +101,40 @@ Possible errors
 }
 ```
 
+## Update
+
+```
+Type: PUT
+Route: /auth/update
+```
+Body
+
+```json
+{
+  "name": "Samuel Alev",
+	"email": "samuel.alev@supinfo.com",
+	"password": "bicycle",
+	"gender": 0,
+	"address": "Avenue Louise 534, 1000 Bruxelles",
+	"country": "Belgium"
+}
+```
+
+Response `204`
+
+Possible errors
+```json
+# Code 422
+{
+  "message": "The given data was invalid.",
+  "errors": {
+    "email": [
+      "The email is already taken."
+    ],
+  }
+}
+```
+
 ## Logout
 
 ```
@@ -146,3 +181,12 @@ Possible errors
 # Code 401
 { "message": "Unauthenticated." }
 ```
+
+## Destroy
+
+```
+Type: DELETE
+Route: /auth/destroy
+```
+
+Response `204`
