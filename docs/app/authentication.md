@@ -6,13 +6,13 @@ After opening the application, the user will be asked to authenticate itself. He
 
 To identify itself, the user must provide its email address and password
 
-<img :src="$withBase('/app/auth_login.png')" alt="Basket with items">
+<img :src="$withBase('/app/auth_login.jpg')" alt="Basket with items">
 
 ## Register 
 
 To register, the user have to provide his information to create an account.
 
-<img :src="$withBase('/app/auth_register.png')" alt="Basket with items">
+<img :src="$withBase('/app/auth_register.jpg')" alt="Basket with items">
 
 
 The user must click to "Register" button to validate his registration and it will be automatically authenticated.
