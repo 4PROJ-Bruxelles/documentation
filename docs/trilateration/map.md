@@ -24,7 +24,7 @@ Three requests can be sent to it:
 The visual of this project is a canvas containing, basically, three dots representing the three terminals that are supposed to be installed in real.
 These points can be moved by clicking on them to reposition them to imitate the real configuration of the beacons.
 
-As soon as the minimum information for a device to be displayed is sent by the PLC, a new blue point representing a device will be placed on the map.
+As soon as the minimum information for a device to be displayed is sent by the API, a new blue point representing a device will be placed on the map.
 By moving the bollards, the point will adapt to the new position directly.
 
 A background image can be dragged and dropped to have a scale comparable to the reality.
@@ -33,7 +33,7 @@ By right-clicking on the web page, an options tab can be opened to change some d
 
 * B1 to B2 is the number of meters separating terminal 1 to terminal 2, this metric is necessary to calculate the number of pixels per meter for the display to be as realistic as possible.
 * txPower is the signal power at one meter from a terminal, it is important in the trilateration calculation.
-* The Environmental Factor is a variable depending on the environment in which the bollards are placed. This value can vary between 2 and 5.
+* The Environmental Factor is a variable depending on the environment in which the bollFards are placed. This value can vary between 2 and 5.
 
 # SocketIO
 
