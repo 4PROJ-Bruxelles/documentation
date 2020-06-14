@@ -25,7 +25,7 @@ The visual of this project is a canvas containing, basically, three dots represe
 These points can be moved by clicking on them to reposition them to imitate the real configuration of the beacons.
 
 As soon as the minimum information for a device to be displayed is sent by the API, a new blue point representing a device will be placed on the map.
-By moving the bollards, the point will adapt to the new position directly.
+By moving the beacons, the point will adapt to the new position directly.
 
 A background image can be dragged and dropped to have a scale comparable to the reality.
 
