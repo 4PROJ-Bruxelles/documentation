@@ -40,6 +40,3 @@ By right-clicking on the web page, an options tab can be opened to change some d
 SocketIO communicates between the frontend and the API in real time to send changes in information from a device to the map directly.
 
 Each time a new value, or deletion of a value, is made in the API, the API will send information from all devices to update the map.
-
-
-Translated with www.DeepL.com/Translator (free version)
