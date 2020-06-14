@@ -1,6 +1,6 @@
 # Documentation
 
-To initialize the documentation, following steps.
+To initialize the documentation, use following steps.
 
 ## Build Setup
 
