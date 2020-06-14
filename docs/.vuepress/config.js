@@ -57,6 +57,10 @@ module.exports = {
 				collapsable: false,
 				children: [
 					'app/',
+					'app/authentification',
+					'app/profile',
+					'app/scan',
+					'app/basket',
 				]
 			},
 			{
